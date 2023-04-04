@@ -9,6 +9,9 @@ inputs:
   context:
     description: 'Dockerfile location'
     required: true
+  prefix:
+    description: 'docker tag prefix'
+    required: false
 
 runs:
   using: "composite"
@@ -38,6 +41,10 @@ runs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ inputs.image }}
+          flavor: |
+            latest=auto
+            prefix=${{ inputs.prefix }}
+            suffix=
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
