@@ -7,8 +7,11 @@ inputs:
     description: 'Image name'
     required: true
   context:
-    description: 'Dockerfile location'
+    description: 'Docker build context'
     required: true
+  file:
+    description: 'Dockerfile location'
+    required: false
   prefix:
     description: 'docker tag prefix'
     required: false
@@ -58,6 +61,7 @@ runs:
         uses: docker/build-push-action@v4
         with:
           context: ${{ inputs.context }}
+          file: ${{ inputs.file }}
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
