@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/tiwariav/github-actions/compare/v1.1.1...v1.2.0) (2023-04-07)
+
+
+### Features
+
+* docker action metadata to use semver ([576ff54](https://github.com/tiwariav/github-actions/commit/576ff54399d09f982d14b3596a01907ea6d8533e))
+
 ## [1.1.1](https://github.com/tiwariav/github-actions/compare/v1.1.0...v1.1.1) (2023-04-07)
 
 # [1.1.0](https://github.com/tiwariav/github-actions/compare/v1.0.0...v1.1.0) (2023-04-04)
