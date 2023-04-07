@@ -3,20 +3,23 @@ name: 'Docker Build'
 description: 'Build docker image'
 
 inputs:
-  image:
-    description: 'Image name'
-    required: true
   context:
     description: 'Docker build context'
     required: true
+  image:
+    description: 'Image name'
+    required: true
+  build-args:
+    description: 'Docker build args'
+    required: false
   file:
     description: 'Dockerfile location'
     required: false
   prefix:
-    description: 'docker tag prefix'
+    description: 'Docker tag prefix'
     required: false
   suffix:
-    description: 'docker tag suffix'
+    description: 'Docker tag suffix'
     required: false
 
 runs:
@@ -60,9 +63,10 @@ runs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
+          build-args: ${{ inputs.build-args }}
           context: ${{ inputs.context }}
           file: ${{ inputs.file }}
+          labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
