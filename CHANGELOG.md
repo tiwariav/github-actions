@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/tiwariav/github-actions/compare/v1.2.0...v1.3.0) (2023-04-07)
+
+
+### Features
+
+* add suffix input ([493e92d](https://github.com/tiwariav/github-actions/commit/493e92d09eb33665d2dcdb018cac3d5fc7ab38e0))
+
 # [1.2.0](https://github.com/tiwariav/github-actions/compare/v1.1.1...v1.2.0) (2023-04-07)
 
 
