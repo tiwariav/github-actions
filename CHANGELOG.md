@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/tiwariav/github-actions/compare/v1.3.0...v1.4.0) (2023-04-07)
+
+
+### Features
+
+* add dockerfile input ([5e616a8](https://github.com/tiwariav/github-actions/commit/5e616a86341f774692fc2e70632ff27892058540))
+
 # [1.3.0](https://github.com/tiwariav/github-actions/compare/v1.2.0...v1.3.0) (2023-04-07)
 
 
