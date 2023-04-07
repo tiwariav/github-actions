@@ -12,6 +12,9 @@ inputs:
   prefix:
     description: 'docker tag prefix'
     required: false
+  suffix:
+    description: 'docker tag suffix'
+    required: false
 
 runs:
   using: "composite"
@@ -44,7 +47,7 @@ runs:
           flavor: |
             latest=auto
             prefix=${{ inputs.prefix }}
-            suffix=
+            suffix=${{ inputs.suffix }}
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
