@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/tiwariav/github-actions/compare/v1.4.0...v1.5.0) (2023-04-07)
+
+
+### Features
+
+* add dockerfile build-args ([cdf6fe7](https://github.com/tiwariav/github-actions/commit/cdf6fe79b98695f2b94bc9d6de63110daa99d668))
+
 # [1.4.0](https://github.com/tiwariav/github-actions/compare/v1.3.0...v1.4.0) (2023-04-07)
 
 
