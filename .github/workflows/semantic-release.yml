@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Semantic Release
-        uses: ../../semantic-release-yarn@v4
+        uses: tiwariav/github-actions/semantic-release-yarn@v1
