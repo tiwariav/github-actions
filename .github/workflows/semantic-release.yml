@@ -16,4 +16,3 @@ jobs:
             @tiwariav/semantic-release-config-npm-github
         env:
           GITHUB_TOKEN: ${{ inputs.github-token }}
-          NPM_TOKEN: ${{ inputs.npm-token }}
