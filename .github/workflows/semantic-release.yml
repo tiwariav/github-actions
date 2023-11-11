@@ -15,4 +15,4 @@ jobs:
           extends: |
             @tiwariav/semantic-release-config-npm-github
         env:
-          GITHUB_TOKEN: ${{ inputs.github-token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
