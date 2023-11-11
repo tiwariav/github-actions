@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: cycjimmy/semantic-release-action@v4
+        with:
+          extends: |
+            @tiwariav/semantic-release-config-npm-github
         env:
           GITHUB_TOKEN: ${{ inputs.github-token }}
           NPM_TOKEN: ${{ inputs.npm-token }}
