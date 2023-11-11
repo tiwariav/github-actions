@@ -1,3 +1,22 @@
+## [1.6.1](https://github.com/tiwariav/github-actions/compare/v1.6.0...v1.6.1) (2023-11-11)
+
+
+### 🐛 Bug Fixes
+
+* add action checkout before custom action ([b3a2d26](https://github.com/tiwariav/github-actions/commit/b3a2d26e535bbced43f243839c97c7816a171f6c))
+* correct path for action ([1616d5b](https://github.com/tiwariav/github-actions/commit/1616d5b495de810a2ba6fea369c4411272a4752e))
+* correct path for action ([aa95d95](https://github.com/tiwariav/github-actions/commit/aa95d959b51abc0f3ca21c363d27925e28c5a538))
+* fix github actions env secrets ([c3cdd8b](https://github.com/tiwariav/github-actions/commit/c3cdd8b65d528eb2e94abba0c8e40390ff68f210))
+* update actions ([85c05e4](https://github.com/tiwariav/github-actions/commit/85c05e4c2240da45b871f160ee04cfac070d8397))
+* update actions ([40d596d](https://github.com/tiwariav/github-actions/commit/40d596d0867d8746757db57c405a0e2e1ed0d4e9))
+* update actions ([3ad7316](https://github.com/tiwariav/github-actions/commit/3ad7316f0913237b5d1b6a0e0a6dc08064839d8c))
+
+
+### ♻️ Code Refactors
+
+* remove unused config file ([071d606](https://github.com/tiwariav/github-actions/commit/071d6064230d364470db8fc6ca2115c8f9c1c8ff))
+* reuse self defined actions ([ec90459](https://github.com/tiwariav/github-actions/commit/ec9045933e19dc010fafee3c777fac05318fe68a))
+
 ## [1.6.0](https://github.com/tiwariav/github-actions/compare/v1.5.0...v1.6.0) (2023-11-11)
 
 
