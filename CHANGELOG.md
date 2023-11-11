@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/tiwariav/github-actions/compare/v1.5.0...v1.6.0) (2023-11-11)
+
+
+### ✨ Features
+
+* add semantic-release-yarn action ([ae5cf9f](https://github.com/tiwariav/github-actions/commit/ae5cf9fc2c2f64f181d9e847889bee0e5b2d7b54))
+
 # [1.5.0](https://github.com/tiwariav/github-actions/compare/v1.4.0...v1.5.0) (2023-04-07)
 
 
