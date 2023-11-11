@@ -9,10 +9,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: cycjimmy/semantic-release-action@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run conventional-release
+        uses: ./actions/conventional-release
         with:
-          extends: |
-            @tiwariav/semantic-release-config-npm-github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          create-release: true
