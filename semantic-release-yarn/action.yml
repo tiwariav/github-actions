@@ -2,6 +2,13 @@ name: "Semantic Release Yarn"
 
 description: "Run semantic release for yarn projects"
 
+inputs:
+  github-token:
+    description: "Github token"
+    required: true
+  npm-token:
+    description: "NPM token"
+
 runs:
   using: "composite"
   steps:
@@ -15,5 +22,5 @@ runs:
     - name: Semantic Release
       uses: cycjimmy/semantic-release-action@v4
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+        NPM_TOKEN: ${{ inputs.npm-token }}
