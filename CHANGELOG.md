@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.6.2 (2023-11-17)
+
 ## [1.6.1](https://github.com/tiwariav/github-actions/compare/v1.6.0...v1.6.1) (2023-11-11)
 
 ### 🐛 Bug Fixes
