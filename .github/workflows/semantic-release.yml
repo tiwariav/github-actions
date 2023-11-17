@@ -12,6 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Run conventional-release
-        uses: ./actions/conventional-release
+        uses: ./conventional-release
         with:
           create-release: true

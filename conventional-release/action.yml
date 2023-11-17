@@ -28,7 +28,7 @@ runs:
       shell: bash
     - name: Github Release
       if: ${{ inputs.create-release == 'true' }}
-      run: ./actions/conventional-release/github-release.sh
+      run: ./conventional-release/github-release.sh
       shell: bash
       env:
         GITHUB_TOKEN: ${{ github.token }}
