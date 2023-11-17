@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.6.4 (2023-11-17)
+
+
+### Bug Fixes
+
+* revert actions path to root level ([39c6cb6](https://github.com/tiwariav/github-actions/commit/39c6cb686cc1daffc8b46ca7d1a35a57ef010b81))
+
+
+
 ## 1.6.3 (2023-11-17)
 
 
