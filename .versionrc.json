@@ -1,0 +1,15 @@
+{
+  "version": "1.6.2",
+  "packageFiles": [
+    {
+      "filename": ".versionrc.json",
+      "type": "json"
+    }
+  ],
+  "bumpFiles": [
+    {
+      "filename": ".versionrc.json",
+      "type": "json"
+    }
+  ]
+}
