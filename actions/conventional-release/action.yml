@@ -19,11 +19,11 @@ runs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git fetch origin --quiet --tags
-        npm i -g commit-and-tag-version @tiwariav/conventional-changelog-preset
+        npm i -g commit-and-tag-version @tiwariav/conventional-changelog-preset conventional-changelog-angular
       shell: bash
     - name: Commit and Tag
       run: |
-        npx commit-and-tag-version
+        npx commit-and-tag-version --preset angular
         git push --follow-tags origin main
       shell: bash
     - name: Github Release
