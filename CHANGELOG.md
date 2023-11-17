@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.6.5 (2023-11-17)
+
+
+### Bug Fixes
+
+* correct github-release path in shared action ([92631d4](https://github.com/tiwariav/github-actions/commit/92631d4a690a53c4b4482817f1f5bd64e91f5239))
+
+
+
 ## 1.6.4 (2023-11-17)
 
 
