@@ -22,8 +22,8 @@ runs:
       shell: bash
     - name: Commit and Tag
       run: |
-        git fetch origin --quiet --tags
-        npx commit-and-tag-version --preset angular
+        git fetch --depth=50 --tags --quiet
+        commit-and-tag-version --preset @tiwariav/preset
         git push --follow-tags origin main
       shell: bash
     - name: Github Release

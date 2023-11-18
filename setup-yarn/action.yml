@@ -1,0 +1,16 @@
+name: "Setup Yarn Berry"
+
+description: "Setup yarn berry on node"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - name: Setup Yarn Berry
+      run: |
+        corepack enable
+        yarn set version berry
+        yarn install
+      shell: bash
