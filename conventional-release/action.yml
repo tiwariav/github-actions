@@ -23,12 +23,12 @@ runs:
     - name: Commit and Tag
       run: |
         git fetch --depth=50 --tags --quiet
-        commit-and-tag-version --preset @tiwariav/preset
+        commit-and-tag-version
         git push --follow-tags origin main
       shell: bash
     - name: Github Release
       if: ${{ inputs.create-release == 'true' }}
-      run: ${{ github.action_path }}/conventional-release/github-release.sh
+      run: ${{ github.action_path }}/github-release.sh
       shell: bash
       env:
         GITHUB_TOKEN: ${{ github.token }}
