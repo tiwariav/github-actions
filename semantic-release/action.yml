@@ -1,0 +1,21 @@
+name: "Semantic Release"
+
+description: "Create a release based on conventional commits"
+
+inputs:
+  create-release:
+    description: "Create a release"
+    required: false
+    default: "false"
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - name: Release
+      run: |
+        npm i -g semantic-release @tiwariav/semantic-release-config
+        semantic-release --extends @tiwariav/semantic-release-config
+      shell: bash
