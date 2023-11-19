@@ -3,10 +3,12 @@ name: "Semantic Release"
 description: "Create a release based on conventional commits"
 
 inputs:
-  create-release:
-    description: "Create a release"
+  github-token:
+    description: "GitHub token"
     required: false
-    default: "false"
+  npm-token:
+    description: "NPM token"
+    required: false
 
 runs:
   using: "composite"

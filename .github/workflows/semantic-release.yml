@@ -11,5 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./semantic-release
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          npm-token: ${{ secrets.NPM_TOKEN }}

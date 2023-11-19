@@ -1,4 +1,0 @@
-{
-  "extends": "@tiwariav/semantic-release-config",
-  "plugins": ["@semantic-release/github"]
-}
