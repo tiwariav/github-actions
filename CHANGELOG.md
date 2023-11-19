@@ -1,3 +1,10 @@
+## [1.6.11](https://github.com/tiwariav/github-actions/compare/v1.6.10...v1.6.11) (2023-11-19)
+
+
+### 🐛 Bug Fixes
+
+* remove local release config ([f1a8cec](https://github.com/tiwariav/github-actions/commit/f1a8cec0ba6df5c7b81dbdeaa8f10aa655632e7c))
+
 ## [1.6.9](https://github.com/tiwariav/github-actions/compare/v1.6.8...v1.6.9) (2023-11-19)
 
 ### 🐛 Bug Fixes
