@@ -1,3 +1,11 @@
+## [1.6.9](https://github.com/tiwariav/github-actions/compare/v1.6.8...v1.6.9) (2023-11-19)
+
+
+### 🐛 Bug Fixes
+
+* replace conventional-release with semantic-release ([0bc2b5f](https://github.com/tiwariav/github-actions/commit/0bc2b5fd995c64f0e768f3f2264d1c0bd265eb33))
+* update conventional preset ([0596ac4](https://github.com/tiwariav/github-actions/commit/0596ac4d32ecbd6010b462e9a06f317ccb7c228b))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
