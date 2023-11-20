@@ -1,3 +1,10 @@
+## [1.6.12](https://github.com/tiwariav/github-actions/compare/v1.6.11...v1.6.12) (2023-11-20)
+
+
+### 🐛 Bug Fixes
+
+* fix token env vars ([3991f8e](https://github.com/tiwariav/github-actions/commit/3991f8e52b6a0bc4e0ff5af26d68e45611dbe183))
+
 ## [1.6.11](https://github.com/tiwariav/github-actions/compare/v1.6.10...v1.6.11) (2023-11-19)
 
 
