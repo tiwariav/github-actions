@@ -1,3 +1,10 @@
+## [1.6.13](https://github.com/tiwariav/github-actions/compare/v1.6.12...v1.6.13) (2023-11-20)
+
+
+### ♻️ Code Refactors
+
+* log npm package version in github action ([6d0fa1b](https://github.com/tiwariav/github-actions/commit/6d0fa1b1b0a32bea1301549254dc7f6b1e16355d))
+
 ## [1.6.12](https://github.com/tiwariav/github-actions/compare/v1.6.11...v1.6.12) (2023-11-20)
 
 ### 🐛 Bug Fixes
