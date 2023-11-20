@@ -1,12 +1,10 @@
 ## [1.6.12](https://github.com/tiwariav/github-actions/compare/v1.6.11...v1.6.12) (2023-11-20)
 
-
 ### 🐛 Bug Fixes
 
 * fix token env vars ([3991f8e](https://github.com/tiwariav/github-actions/commit/3991f8e52b6a0bc4e0ff5af26d68e45611dbe183))
 
 ## [1.6.11](https://github.com/tiwariav/github-actions/compare/v1.6.10...v1.6.11) (2023-11-19)
-
 
 ### 🐛 Bug Fixes
 
@@ -19,15 +17,11 @@
 * replace conventional-release with semantic-release ([0bc2b5f](https://github.com/tiwariav/github-actions/commit/0bc2b5fd995c64f0e768f3f2264d1c0bd265eb33))
 * update conventional preset ([0596ac4](https://github.com/tiwariav/github-actions/commit/0596ac4d32ecbd6010b462e9a06f317ccb7c228b))
 
-## 1.6.8 (2023-11-18)
-
 ## 1.6.7 (2023-11-18)
 
 ### Bug Fixes
 
 * correct action path ([746b226](https://github.com/tiwariav/github-actions/commit/746b2268a352476c57184ed10f75ab2dec310dc4))
-
-## 1.6.6 (2023-11-17)
 
 ## 1.6.5 (2023-11-17)
 
