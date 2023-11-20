@@ -21,3 +21,6 @@ runs:
         npm i -g semantic-release @tiwariav/semantic-release-config
         semantic-release --extends @tiwariav/semantic-release-config
       shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+        NPM_TOKEN: ${{ inputs.npm-token }}
