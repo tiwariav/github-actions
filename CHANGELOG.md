@@ -1,3 +1,10 @@
+## [1.6.15](https://github.com/tiwariav/github-actions/compare/v1.6.14...v1.6.15) (2023-11-29)
+
+
+### ⚡️ Performance Improvements
+
+* run setup-node action only if node version is lower ([ca15da0](https://github.com/tiwariav/github-actions/commit/ca15da0009bd376c4a39f2524fb979b7685b8d97))
+
 ## [1.6.14](https://github.com/tiwariav/github-actions/compare/v1.6.13...v1.6.14) (2023-11-29)
 
 
