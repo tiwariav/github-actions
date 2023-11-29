@@ -1,3 +1,10 @@
+## [1.6.14](https://github.com/tiwariav/github-actions/compare/v1.6.13...v1.6.14) (2023-11-29)
+
+
+### 🐛 Bug Fixes
+
+* add HUSKY env var ([d46a9ff](https://github.com/tiwariav/github-actions/commit/d46a9ff65ec4f6f081f5e1183259a384c2da96ef))
+
 ## [1.6.13](https://github.com/tiwariav/github-actions/compare/v1.6.12...v1.6.13) (2023-11-20)
 
 
