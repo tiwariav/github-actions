@@ -23,5 +23,6 @@ runs:
         semantic-release --extends @tiwariav/semantic-release-config
       shell: bash
       env:
+        HUSKY: 0
         GITHUB_TOKEN: ${{ inputs.github-token }}
         NPM_TOKEN: ${{ inputs.npm-token }}
