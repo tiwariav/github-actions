@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/tiwariav/github-actions/compare/v1.6.17...v1.7.0) (2023-12-23)
+
+
+### ✨ Features
+
+* add linter caches to yarn setup ([9d4976b](https://github.com/tiwariav/github-actions/commit/9d4976b5e20bf7e870be2d40957332bda81c1d61))
+
 ## [1.6.17](https://github.com/tiwariav/github-actions/compare/v1.6.16...v1.6.17) (2023-12-23)
 
 
