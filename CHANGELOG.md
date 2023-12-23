@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/tiwariav/github-actions/compare/v1.7.0...v1.8.0) (2023-12-23)
+
+
+### ✨ Features
+
+* new action for js linter cache ([5a3f507](https://github.com/tiwariav/github-actions/commit/5a3f507b6293ea73b65278daad58ddb0a60d7a80))
+
 ## [1.7.0](https://github.com/tiwariav/github-actions/compare/v1.6.17...v1.7.0) (2023-12-23)
 
 
