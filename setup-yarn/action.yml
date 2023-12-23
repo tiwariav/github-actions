@@ -19,6 +19,8 @@ runs:
         corepack enable
         yarn set version berry
         yarn install
+        echo ${{ inputs.lint-cache-key }}
+        echo ${{ inputs.lint-cache-key == false }}
       shell: bash
     - uses: actions/cache@v3
       if: ${{ inputs.lint-cache-key != false }}
