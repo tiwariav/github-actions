@@ -1,0 +1,23 @@
+name: "Cache JS Linters"
+
+description: "Cache common linters for javascriot"
+
+inputs:
+  cache-key:
+    description: "Key for lint-cache (disabled if false)"
+    required: false
+    default: ${{ hashFiles('yarn.lock', 'package.json') }}
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v3
+      with:
+        path: |
+          .eslintcache
+          .stylelintcache
+          node_modules/.cache/prettier/.prettier-cache
+          tsconfig.build.tsbuildinfo
+        key: ${{ runner.os }}-cache-linters-${{ inputs.cache-key }}
+        restore-keys: |
+          ${{ runner.os }}-cache-linters-

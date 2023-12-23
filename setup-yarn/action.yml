@@ -2,12 +2,6 @@ name: "Setup Yarn Berry"
 
 description: "Setup yarn berry on node"
 
-inputs:
-  lint-cache-key:
-    description: "Key for lint-cache (disabled if false)"
-    required: false
-    default: ${{ hashFiles('yarn.lock', 'package.json') }}
-
 runs:
   using: "composite"
   steps:
@@ -20,14 +14,3 @@ runs:
         yarn set version berry
         yarn install
       shell: bash
-    - uses: actions/cache@v3
-      if: ${{ inputs.lint-cache-key != 'false' }}
-      with:
-        path: |
-          .eslintcache
-          .stylelintcache
-          node_modules/.cache/prettier/.prettier-cache
-          tsconfig.build.tsbuildinfo
-        key: ${{ runner.os }}-lint-cache-${{ inputs.cache-key }}
-        restore-keys: |
-          ${{ runner.os }}-lint-cache-
