@@ -12,5 +12,5 @@ runs:
       run: |
         corepack enable
         yarn set version berry
-        yarn install
+        yarn install --prefer-offline
       shell: bash
