@@ -1,3 +1,10 @@
+## [1.6.16](https://github.com/tiwariav/github-actions/compare/v1.6.15...v1.6.16) (2023-12-23)
+
+
+### ♻️ Code Refactors
+
+* prefer offline cache for yarn install ([1572e8d](https://github.com/tiwariav/github-actions/commit/1572e8dbf7c62c55c1c7e3cdb3f2e2c901b33518))
+
 ## [1.6.15](https://github.com/tiwariav/github-actions/compare/v1.6.14...v1.6.15) (2023-11-29)
 
 
