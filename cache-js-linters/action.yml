@@ -17,7 +17,6 @@ runs:
           .eslintcache
           .stylelintcache
           node_modules/.cache/prettier/.prettier-cache
-          tsconfig.build.tsbuildinfo
         key: ${{ runner.os }}-cache-linters-${{ inputs.cache-key }}
         restore-keys: |
           ${{ runner.os }}-cache-linters-
