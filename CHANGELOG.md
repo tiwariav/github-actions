@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/tiwariav/github-actions/compare/v1.8.0...v1.8.1) (2024-01-14)
+
+
+### 🐛 Bug Fixes
+
+* fix node version check in semantic-release action ([79ea29e](https://github.com/tiwariav/github-actions/commit/79ea29e55c674b2d5c14679d6438d8f9f9824c56))
+
 ## [1.8.0](https://github.com/tiwariav/github-actions/compare/v1.7.0...v1.8.0) (2023-12-23)
 
 
