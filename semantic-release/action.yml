@@ -18,7 +18,7 @@ runs:
       run: echo "version=$(node -v)" >> $GITHUB_OUTPUT
       shell: bash
     - uses: actions/setup-node@v4
-      if: ${{ startsWith(steps.node-version.outputs.version, 'v20') }}
+      if: ${{ startsWith(steps.node-version.outputs.version, 'v20') != true }}
       with:
         node-version: 20
     - name: Release
