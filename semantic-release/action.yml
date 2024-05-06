@@ -23,7 +23,7 @@ runs:
         node-version: 20
     - name: Release
       run: |
-        npm i -g semantic-release @tiwariav/semantic-release-config@1.3.4
+        npm i -g semantic-release @tiwariav/semantic-release-config
         echo "Using @tiwariav/semantic-release-config $(npm view @tiwariav/semantic-release-config version)"
         semantic-release --extends @tiwariav/semantic-release-config
       shell: bash
